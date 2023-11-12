@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include promantia_pmo *.css
+recursive-include promantia_pmo *.csv
+recursive-include promantia_pmo *.html
+recursive-include promantia_pmo *.ico
+recursive-include promantia_pmo *.js
+recursive-include promantia_pmo *.json
+recursive-include promantia_pmo *.md
+recursive-include promantia_pmo *.png
+recursive-include promantia_pmo *.py
+recursive-include promantia_pmo *.svg
+recursive-include promantia_pmo *.txt
+recursive-exclude promantia_pmo *.pyc
